@@ -75,7 +75,7 @@ const MarketView: React.FC<MarketViewProps> = ({ marketplaceAddr }) => {
     try {
       const response = await client.getAccountResource(
         marketplaceAddr,
-        "#replace with your account address::NFTMarketplace::Marketplace"
+        "replace your-marketplace-address::NFTMarketplace::Marketplace"
       );
       const nftList = (response.data as { nfts: NFT[] }).nfts;
 
