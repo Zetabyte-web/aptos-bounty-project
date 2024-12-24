@@ -60,7 +60,7 @@ Update the placeholder `your-marketplace-address` in the following files with yo
 
 - **NFTMarketplace.move** at **line 1**.
 - **move.toml** at **line 6**.
-- **Market.tsx** at **line 78**.
+- **MarketView.tsx** at **line 78**.
 - **MyNFTs.tsx** at **line 38**.
 - **App.tsx** at **line 15**.
 
