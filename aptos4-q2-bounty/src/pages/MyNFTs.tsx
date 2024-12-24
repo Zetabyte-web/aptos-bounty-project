@@ -16,7 +16,7 @@ import { useWallet } from "@aptos-labs/wallet-adapter-react";
 const { Title } = Typography;
 const { Meta } = Card;
 
-const client = new AptosClient("https://fullnode.devnet.aptoslabs.com/v1");
+const client = new AptosClient("https://fullnode.testnet.aptoslabs.com/v1");
 
 type NFT = {
   id: number;
@@ -35,7 +35,7 @@ const MyNFTs: React.FC = () => {
   const [totalNFTs, setTotalNFTs] = useState(0);
   const { account, signAndSubmitTransaction } = useWallet();
   const marketplaceAddr =
-    "0x4a9a3916e1355af68ded51424a6938de5f6d67e360b36a956cecbf00c0ff4f60";
+    "replace your-marketplace-address";
 
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [selectedNft, setSelectedNft] = useState<NFT | null>(null);
