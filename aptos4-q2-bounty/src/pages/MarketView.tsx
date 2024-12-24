@@ -18,7 +18,7 @@ import { useWallet } from "@aptos-labs/wallet-adapter-react";
 const { Title } = Typography;
 const { Meta } = Card;
 
-const client = new AptosClient("https://fullnode.devnet.aptoslabs.com/v1");
+const client = new AptosClient(https://fullnode.testnet.aptoslabs.com/v1");
 
 type NFT = {
   id: number;
@@ -75,7 +75,7 @@ const MarketView: React.FC<MarketViewProps> = ({ marketplaceAddr }) => {
     try {
       const response = await client.getAccountResource(
         marketplaceAddr,
-        "0xa35a69be77334d748585cfbebc7ca5dff7deab7821944c9bc4e46888537341da::NFTMarketplace::Marketplace"
+        "#replace with your account address::NFTMarketplace::Marketplace"
       );
       const nftList = (response.data as { nfts: NFT[] }).nfts;
 
