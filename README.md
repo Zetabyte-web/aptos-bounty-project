@@ -393,7 +393,7 @@ handleFetchNfts(rarity === "all" ? undefined : rarity);
 
 #### 2. Select NFT to Transfer:
 
-- Browse through the NFTs in your collection and find the one you wish to transfer.
+- Browse through the NFTs in your marketplace and find the one you wish to transfer.
 - Click the **"Transfer"** button under the selected NFT to open the transfer details.
 
 #### 3. Enter Recipient’s Address:
@@ -422,3 +422,5 @@ handleFetchNfts(rarity === "all" ? undefined : rarity);
 ## 🧑‍💻 Final Thoughts
 
 The NFT Transfer feature introduces new opportunities for users on how to use NFTs securely and conveniently. Whether users want to gift an NFT or navigate different wallets for a collection, this feature brings convenience to the platform.
+
+Thank you!
