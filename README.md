@@ -43,7 +43,7 @@ NFT Marketplace is an exciting use case deployed on the Aptos network that aims 
 ### Prerequisites
 
 - **Aptos CLI** installed.
-- A deployed `NFTMarketplace` module on **Devnet**.
+- A deployed `NFTMarketplace` module on **Testnet**.
 - **Petra Wallet** for testing.
 
 ### Steps to Get Started
